@@ -1,0 +1,40 @@
+# Virtual environments
+venv/
+.env/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Model & data (optional if you’ll re-upload manually)
+# *.pkl
+# *.csv
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+*.tmp
+*.bak
