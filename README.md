@@ -1,6 +1,5 @@
 # 🧠 Emotion Detection Using Keystroke Dynamics
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Node.js](https://img.shields.io/badge/Node.js-v14+-green.svg)](https://nodejs.org/)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Express.js](https://img.shields.io/badge/Express.js-4.x-lightgrey.svg)](https://expressjs.com/)
@@ -358,17 +357,11 @@ Contributions are welcome! Please follow these steps:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
 
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
+- GitHub: [Ansh Khare]
 
 ---
 
@@ -380,7 +373,8 @@ If this project helped you, please give it a ⭐ on GitHub!
 
 ## 📞 Contact
 
-For questions or feedback, please open an issue on GitHub or contact me at your-email@example.com
+For questions or feedback, please open an issue on GitHub or contact me at 
+khareansh075@gmail.com
 
 ---
 
