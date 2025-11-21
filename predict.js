@@ -2,7 +2,7 @@ import { spawn } from "child_process";
 
 export async function predictEmotion(features) {
   return new Promise((resolve, reject) => {
-    const pythonPath = "./venv/Scripts/python"; 
+    const pythonPath =  "python3"; 
     const process = spawn(pythonPath, ["predict.py"], { cwd: "./" });
 
     let stdout = "";
