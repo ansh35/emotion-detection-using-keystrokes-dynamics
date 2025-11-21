@@ -6,29 +6,28 @@ const app = express();
 const port = 3000;
 
 app.use(cors());
-app.use(express.json()); // ✅ needed to parse JSON bodies
+app.use(express.json());
 
-// Emotion prediction endpoint
+// Emotion prediction API
 app.post("/getEmotions", async (req, res) => {
   try {
     const { arrData } = req.body;
 
-    // Validate input
-    if (!Array.isArray(arrData) || arrData.length !== 8) {
+    // Validate input: must be EXACTLY 7 numbers
+    if (!Array.isArray(arrData) || arrData.length !== 7) {
       return res.status(400).json({
         success: false,
-        message: "Invalid input: 'arrData' must be an array of exactly 8 numbers.",
+        message: "Invalid input: 'arrData' must contain EXACTLY 7 numeric features.",
       });
     }
 
-    // Get emotion from Python model
     const emotionDetected = await predictEmotion(arrData);
 
-    // Send clean JSON response
     return res.status(200).json({
       success: true,
       emotion: emotionDetected,
     });
+
   } catch (error) {
     console.error("❌ Prediction Error:", error.message);
     return res.status(500).json({
