@@ -361,7 +361,7 @@ Contributions are welcome! Please follow these steps:
 ## 👨‍💻 Author
 
 **Your Name**
-- GitHub: [Ansh Khare]
+[Ansh Khare]
 
 ---
 
